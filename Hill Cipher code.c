@@ -7,7 +7,7 @@ unsigned int b[3][3]={{8,5,10},{21,8,21},{21,12,8}};
 int i,j, t=0; 
 unsigned int c[20],d[20];
 char msg[20]; 
-//clrscr(); 
+clrscr(); 
 printf("Enter plain text: ");
 scanf("%s",msg);
 for(i=0;i<strlen(msg);i++)
